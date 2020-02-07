@@ -6,4 +6,6 @@ Classe:
 	      |-> e comportamento são definidos com métodos
 
 Encapsulamento:
-	
+	|-> get e set
+	escapsular os atributos da classe para melhor aproveitamento, e de forma não errônea
+
