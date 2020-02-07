@@ -1,1 +1,9 @@
-vamos la
+Orientação ao objeto 
+
+Classe:
+	São dados e comportamentos - representação de uma coisa da vida real
+	      |-> dados são definidos como atributos
+	      |-> e comportamento são definidos com métodos
+
+Encapsulamento:
+	
