@@ -1,11 +1,38 @@
-Orientação ao objeto 
+Orientação ao objeto (em c++)
+Representação de uma coisa real, abstrair do real para o virtual
+
+EX:
+Representando um carro
+
+class Carro{
+	private string marca;
+	private int ano;
+	private string cor;
+}
+
+Objeto é criar o carro dando ele marca ano e cor.
 
 Classe:
 	São dados e comportamentos - representação de uma coisa da vida real
 	      |-> dados são definidos como atributos
 	      |-> e comportamento são definidos com métodos
 
-Encapsulamento:
+Encapsulamento: não acessar de foma direta, criando metodos
 	|-> get e set
 	escapsular os atributos da classe para melhor aproveitamento, e de forma não errônea
+
+EX:
+
+string setMarca(){
+	marca =  marca
+}
+
+string getMarca(){
+	return Marca
+}
+
+int main(){
+	exemplo.setMarca = marca;
+	exemplo.getMarca();
+}
 
