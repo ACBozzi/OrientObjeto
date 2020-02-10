@@ -3,7 +3,6 @@ Representação de uma coisa real, abstrair do real para o virtual
 
 EX:
 Representando um carro
-
 class Carro{
 	private string marca;
 	private int ano;
@@ -17,14 +16,14 @@ Classe:
 	      |-> dados são definidos como atributos
 	      |-> e comportamento são definidos com métodos
 
-Encapsulamento: não acessar de foma direta, criando metodos
+Encapsulamento: não acessar de foma direta, criando métodos
 	|-> get e set
-	escapsular os atributos da classe para melhor aproveitamento, e de forma não errônea
+	escapsular os atributos da classe para melhor aproveitamento, e de forma não errônea (tratar os dados em get e set)
 
 EX:
 
-string setMarca(){
-	marca =  marca
+string setMarca(string marca){
+	this->marca =  marca
 }
 
 string getMarca(){
@@ -34,5 +33,13 @@ string getMarca(){
 int main(){
 	exemplo.setMarca = marca;
 	exemplo.getMarca();
+}
+
+Construtores e Destrutores: 
+	Construtor : constrói o objeto - método
+
+int main(){
+	Carro c1;
+	c1.setMarca {"Ferrari"}; //todo carro vai ser Ferrari
 }
 
