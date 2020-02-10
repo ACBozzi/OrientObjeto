@@ -20,26 +20,27 @@ Encapsulamento: não acessar de foma direta, criando métodos
 	|-> get e set
 	escapsular os atributos da classe para melhor aproveitamento, e de forma não errônea (tratar os dados em get e set)
 
-EX:
+		string setMarca(string marca){
+			this->marca =  marca
+		}
 
-string setMarca(string marca){
-	this->marca =  marca
-}
+		string getMarca(){
+			return Marca
+		}
 
-string getMarca(){
-	return Marca
-}
-
-int main(){
-	exemplo.setMarca = marca;
-	exemplo.getMarca();
-}
+		int main(){
+			exemplo.setMarca = marca;
+			exemplo.getMarca();
+		}
 
 Construtores e Destrutores: 
-	Construtor : constrói o objeto - método
+	Construtor: constrói o objeto - método
 
-int main(){
-	Carro c1;
-	c1.setMarca {"Ferrari"}; //todo carro vai ser Ferrari
-}
+		int main(){
+			Carro c1;
+			c1.setMarca {"Ferrari"}; //todo carro vai ser Ferrari
+		}
 
+		Destrutor: destrói a classe
+
+Atributo Static: edita atributo de todos os objetos que usam a classe classe
